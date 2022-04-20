@@ -44,7 +44,6 @@ import { AssetComponent } from './components/asset/asset.component';
 import { AssetsComponent } from './components/assets/assets.component';
 import { AssetsNavComponent } from './components/assets/assets-nav/assets-nav.component';
 import { StatusViewComponent } from './components/status-view/status-view.component';
-import { MinerComponent } from './components/miner/miner.component';
 import { SharedModule } from './shared/shared.module';
 import { NgbTypeaheadModule } from '@ng-bootstrap/ng-bootstrap';
 import { FeesBoxComponent } from './components/fees-box/fees-box.component';
@@ -117,7 +116,6 @@ import { BlockFeeRatesGraphComponent } from './components/block-fee-rates-graph/
     LbtcPegsGraphComponent,
     AssetComponent,
     AssetsComponent,
-    MinerComponent,
     StatusViewComponent,
     FeesBoxComponent,
     DashboardComponent,
