@@ -35,6 +35,7 @@ import { BlocksList } from './components/blocks-list/blocks-list.component';
 import { BlockFeesGraphComponent } from './components/block-fees-graph/block-fees-graph.component';
 import { BlockRewardsGraphComponent } from './components/block-rewards-graph/block-rewards-graph.component';
 import { BlockFeeRatesGraphComponent } from './components/block-fee-rates-graph/block-fee-rates-graph.component';
+import { LightningDashboardComponent } from './lightning/lightning-dashboard/lightning-dashboard.component';
 
 let routes: Routes = [
   {
@@ -161,6 +162,11 @@ let routes: Routes = [
         path: 'address/:id',
         children: [],
         component: AddressComponent
+      },
+      {
+        path: 'lightning',
+        component: LightningDashboardComponent,
+        loadChildren: () => import('./lightning/lightning.module').then(m => m.LightningModule)
       },
     ],
   },
