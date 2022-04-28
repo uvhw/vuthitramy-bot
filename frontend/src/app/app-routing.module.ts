@@ -165,7 +165,6 @@ let routes: Routes = [
       },
       {
         path: 'lightning',
-        component: LightningDashboardComponent,
         loadChildren: () => import('./lightning/lightning.module').then(m => m.LightningModule)
       },
     ],
