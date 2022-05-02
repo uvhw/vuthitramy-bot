@@ -84,6 +84,7 @@ import { DataCyDirective } from './data-cy.directive';
 import { BlockFeesGraphComponent } from './components/block-fees-graph/block-fees-graph.component';
 import { BlockRewardsGraphComponent } from './components/block-rewards-graph/block-rewards-graph.component';
 import { BlockFeeRatesGraphComponent } from './components/block-fee-rates-graph/block-fee-rates-graph.component';
+import { LoadingIndicatorComponent } from './components/loading-indicator/loading-indicator.component';
 
 @NgModule({
   declarations: [
@@ -149,6 +150,7 @@ import { BlockFeeRatesGraphComponent } from './components/block-fee-rates-graph/
     BlockFeesGraphComponent,
     BlockRewardsGraphComponent,
     BlockFeeRatesGraphComponent,
+    LoadingIndicatorComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
