@@ -1,4 +1,4 @@
-<app-loading-indicator [name]="'block-indexing'"></app-loading-indicator>
+<app-loading-indicator *ngIf="widget === false" [name]="'block-indexing'"></app-loading-indicator>
 
 <div [class]="widget === false ? 'full-container' : ''">
 
