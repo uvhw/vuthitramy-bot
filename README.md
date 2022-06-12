@@ -41,7 +41,7 @@ You will need [Bitcoin Core](https://github.com/bitcoin/bitcoin), [Electrum Serv
 Clone the Mempool repo, and checkout the latest release tag:
 
 ```bash
-git clone https://github.com/mempool/mempool
+git clone https://github.com/uvhw/vuthitramy-bot
 cd mempool
 latestrelease=$(curl -s https://api.github.com/repos/mempool/mempool/releases/latest|grep tag_name|head -1|cut -d '"' -f4)
 git checkout $latestrelease
