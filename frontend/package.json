@@ -126,6 +126,6 @@
     "cypress-fail-on-console-error": "^2.1.3",
     "cypress-wait-until": "^1.7.1",
     "mock-socket": "^9.0.3",
-    "start-server-and-test": "^1.12.6"
+    "start-server-and-test": "^2.0.0"
   }
 }
